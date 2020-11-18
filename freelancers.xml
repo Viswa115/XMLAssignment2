@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type = "text/xsl" href = "freelancers.xsl"?>
+<freelancer-data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="freelancer.xsd">
+  <freelancer id="flr101">
+      <name>Yogith</name>
+      <qualification>B.Tech</qualification>
+      <freelancer-in>Photography</freelancer-in>
+      <age>20</age>
+      <email>yogith@gmail.com</email>
+      <shortbio>I am creative in abstract photography</shortbio>
+   </freelancer>
+   <freelancer id="flr102">
+      <name>Kumaresh</name>
+      <qualification>B.Tech</qualification>
+      <freelancer-in>Web Development</freelancer-in>
+      <age>20</age>
+      <email>kumaresh@gmail.com</email>
+      <shortbio>I develop web apps with a friendly UI </shortbio>
+   </freelancer>
+   <freelancer id="flr103">
+      <name>Viswa</name>
+      <qualification>B.Tech</qualification>
+      <freelancer-in>Art and Designing</freelancer-in>
+      <age>20</age>
+      <email>viswa@gmail.com</email>
+      <shortbio>Interested in potrait drawings</shortbio>
+   </freelancer>
+   <freelancer id="flr104">
+      <name>Ramesh</name>
+      <qualification>M.Tech</qualification>
+      <freelancer-in>Photography</freelancer-in>
+      <age>23</age>
+      <email>ramesh@gmail.com</email>
+      <shortbio>I am creative in abstract photography</shortbio>
+   </freelancer>
+   <freelancer id="flr105">
+      <name>Suresh</name>
+      <qualification>M.E</qualification>
+      <freelancer-in>API Development</freelancer-in>
+      <age>25</age>
+      <email>suresth@gmail.com</email>
+      <shortbio>I develop API and troubleshoot and support API problems</shortbio>
+   </freelancer>
+</freelancer-data>

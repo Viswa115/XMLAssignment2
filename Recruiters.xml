@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type = "text/xsl" href = "Recruiters.xsl"?>
+<recruiter-data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="recruiter.xsd">
+   <recruiter id="rtr101">
+      <company>ABC</company>
+      <Location>Chennai</Location>
+      <recruits>Web Application Development</recruits>
+      <vacancies>130</vacancies>
+      <email>abc@gmail.com</email>
+      <payscale>Not Disclosed</payscale>
+   </recruiter>
+   <recruiter id="rtr102">
+      <company>HCL</company>
+      <Location>Chennai</Location>
+      <recruits>Product Development</recruits>
+      <vacancies>40</vacancies>
+      <email>hcl@gmail.com</email>
+      <payscale>20,000</payscale>
+   </recruiter>
+   <recruiter id="rtr103">
+      <company>Infotech Solutions</company>
+      <Location>Madurai</Location>
+      <recruits>Software Development</recruits>
+      <vacancies>50</vacancies>
+      <email>infotech@gmail.com</email>
+      <payscale>Not Disclosed</payscale>
+   </recruiter>
+   <recruiter id="rtr104">
+      <company>Jactech Solutions</company>
+      <Location>Madurai</Location>
+      <recruits>Software Development</recruits>
+      <vacancies>50</vacancies>
+      <email>jactech@gmail.com</email>
+      <payscale>Not Disclosed</payscale>
+   </recruiter>
+   <recruiter id="rtr105">
+      <company>AR Designing Studio</company>
+      <Location>Bangalore</Location>
+      <recruits>Art and Designing</recruits>
+      <vacancies>25</vacancies>
+      <email>arstudio@gmail.com</email>
+      <payscale>15,000</payscale>
+   </recruiter>
+</recruiter-data>
