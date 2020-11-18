@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema
+    elementFormDefault="qualified"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="freelancer-data">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="freelancer"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="freelancer">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="name"/>
+        <xs:element ref="qualification"/>
+        <xs:element ref="freelancer-in"/>
+        <xs:element ref="age"/>
+        <xs:element ref="email"/>
+        <xs:element ref="shortbio"/>
+      </xs:sequence>
+      <xs:attribute name="id" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="name" type="xs:NCName"/>
+  <xs:element name="qualification" type="xs:NCName"/>
+  <xs:element name="freelancer-in" type="xs:string"/>
+  <xs:element name="age" type="xs:integer"/>
+  <xs:element name="email" type="xs:string"/>
+  <xs:element name="shortbio" type="xs:string"/>
+</xs:schema>

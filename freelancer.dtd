@@ -1,0 +1,37 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT freelancer-data (freelancer)+>
+<!ATTLIST freelancer-data
+  xmlns CDATA #FIXED ''
+  xmlns:xsi CDATA #FIXED 'http://www.w3.org/2001/XMLSchema-instance'
+  xsi:noNamespaceSchemaLocation CDATA #REQUIRED>
+
+<!ELEMENT freelancer (name,qualification,freelancer-in,age,email,
+                      shortbio)>
+<!ATTLIST freelancer
+  xmlns CDATA #FIXED ''
+  id NMTOKEN #REQUIRED>
+
+<!ELEMENT name (#PCDATA)>
+<!ATTLIST name
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT qualification (#PCDATA)>
+<!ATTLIST qualification
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT freelancer-in (#PCDATA)>
+<!ATTLIST freelancer-in
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT age (#PCDATA)>
+<!ATTLIST age
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT email (#PCDATA)>
+<!ATTLIST email
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT shortbio (#PCDATA)>
+<!ATTLIST shortbio
+  xmlns CDATA #FIXED ''>
