@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
-<?xml-stylesheet type = "text/xsl" href = "freelancers.xsl"?>
-<freelancer-data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:schemaLocation="freelancer.xsd">
+<!DOCTYPE freelancer-data SYSTEM "freelancer.dtd">
+<freelancer-data 
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+      xsi:noNamespaceSchemaLocation="./freelancer.xsd">
   <freelancer id="flr101">
       <name>Yogith</name>
       <qualification>B.Tech</qualification>
