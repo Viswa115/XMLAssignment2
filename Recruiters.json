@@ -1,0 +1,47 @@
+[
+   {
+      "@id": "rtr101",
+      "company": "ABC",
+      "Location": "Chennai",
+      "recruits": "Web Application Development",
+      "vacancies": "130",
+      "email": "abc@gmail.com",
+      "payscale": "Not Disclosed"
+   },
+   {
+      "@id": "rtr102",
+      "company": "HCL",
+      "Location": "Chennai",
+      "recruits": "Product Development",
+      "vacancies": "40",
+      "email": "hcl@gmail.com",
+      "payscale": "20,000 - 30,000"
+   },
+   {
+      "@id": "rtr103",
+      "company": "Infotech Solutions",
+      "Location": "Madurai",
+      "recruits": "Software Development",
+      "vacancies": "50",
+      "email": "infotech@gmail.com",
+      "payscale": "Not Disclosed"
+   },
+   {
+      "@id": "rtr104",
+      "company": "Jactech Solutions",
+      "Location": "Madurai",
+      "recruits": "Software Development",
+      "vacancies": "50",
+      "email": "jactech@gmail.com",
+      "payscale": "Not Disclosed"
+   },
+   {
+      "@id": "rtr105",
+      "company": "AR Designing Studio",
+      "Location": "Bangalore",
+      "recruits": "Art and Designing",
+      "vacancies": "25",
+      "email": "arstudio@gmail.com",
+      "payscale": "15,000 - 20,000"
+   }
+]

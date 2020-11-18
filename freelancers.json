@@ -1,0 +1,47 @@
+[
+   {
+      "@id": "flr101",
+      "name": "Yogith",
+      "qualification": "B.Tech",
+      "freelancer-in": "Photography",
+      "age": "20",
+      "email": "yogith@gmail.com",
+      "shortbio": "I am creative in abstract photography"
+   },
+   {
+      "@id": "flr102",
+      "name": "Kumaresh",
+      "qualification": "B.Tech",
+      "freelancer-in": "Web Development",
+      "age": "20",
+      "email": "kumaresh@gmail.com",
+      "shortbio": "I develop web apps with a friendly UI"
+   },
+   {
+      "@id": "flr103",
+      "name": "Viswa",
+      "qualification": "B.Tech",
+      "freelancer-in": "Art and Designing",
+      "age": "20",
+      "email": "viswa@gmail.com",
+      "shortbio": "Interested in potrait drawings"
+   },
+   {
+      "@id": "flr104",
+      "name": "Ramesh",
+      "qualification": "M.Tech",
+      "freelancer-in": "Photography",
+      "age": "23",
+      "email": "ramesh@gmail.com",
+      "shortbio": "I am creative in abstract photography"
+   },
+   {
+      "@id": "flr105",
+      "name": "Suresh",
+      "qualification": "M.E",
+      "freelancer-in": "API Development",
+      "age": "25",
+      "email": "suresth@gmail.com",
+      "shortbio": "I develop API and troubleshoot and support API problems"
+   }
+]
