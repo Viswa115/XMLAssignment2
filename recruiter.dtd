@@ -1,0 +1,35 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT recruiter-data (recruiter)+>
+<!ATTLIST recruiter-data
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT recruiter (company,Location,recruits,vacancies,email,
+                     payscale)>
+<!ATTLIST recruiter
+  xmlns CDATA #FIXED ''
+  id NMTOKEN #REQUIRED>
+
+<!ELEMENT company (#PCDATA)>
+<!ATTLIST company
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Location (#PCDATA)>
+<!ATTLIST Location
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT recruits (#PCDATA)>
+<!ATTLIST recruits
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT vacancies (#PCDATA)>
+<!ATTLIST vacancies
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT email (#PCDATA)>
+<!ATTLIST email
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT payscale (#PCDATA)>
+<!ATTLIST payscale
+  xmlns CDATA #FIXED ''>
